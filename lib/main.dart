@@ -89,7 +89,7 @@ class _MyHomePageState extends State<MyHomePage> {
               onPressed: _incrementCounter,
               tooltip: 'sumar',
               child: const Icon(
-                Icons.add,
+                Icons.add,size: 40,color: Colors.black,
               ),
             ),
             FloatingActionButton(
@@ -98,7 +98,7 @@ class _MyHomePageState extends State<MyHomePage> {
               onPressed: _restar,
               tooltip: 'restar',
               child: const Icon(
-                Icons.remove,
+                Icons.remove,size: 40,
               ),
             ),
             FloatingActionButton(
@@ -106,16 +106,16 @@ class _MyHomePageState extends State<MyHomePage> {
               onPressed: _multiplicar,
               tooltip: 'multiplicar',
               child: const Icon(
-                Icons.superscript,
+                Icons.superscript, size: 40,
               ),
             ),
             FloatingActionButton(
-              backgroundColor: Colors.yellowAccent,
+              backgroundColor: Colors.deepPurple,
               mini: false,
               onPressed: _sumarx2,
               tooltip: 'multiplicar',
               child: const Icon(
-                Icons.superscript,
+                Icons.superscript, size: 40,
               ),
             )
           ],
