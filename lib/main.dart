@@ -110,7 +110,7 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
             ),
             FloatingActionButton(
-              backgroundColor: Colors.pink,
+              backgroundColor: Colors.yellowAccent,
               mini: false,
               onPressed: _sumarx2,
               tooltip: 'multiplicar',
